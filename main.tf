@@ -22,7 +22,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket01" {
-  bucket = "oct-04-2026-808080"
+  bucket = "oct-05-2026-808080"
 
   tags = {
     Environment = "dev"
